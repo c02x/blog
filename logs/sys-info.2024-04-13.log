@@ -1,0 +1,43 @@
+17:45:59.984 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+17:45:59.982 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 32420 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+17:45:59.988 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+17:46:04.605 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:46:04.606 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:46:04.606 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:46:04.723 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:46:07.137 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+17:46:07.849 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+17:46:07.856 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
+17:46:07.984 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:46:21.454 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 25868 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+17:46:21.458 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+17:46:21.459 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+17:46:23.597 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:46:23.597 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:46:23.597 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:46:23.691 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:46:25.217 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+17:46:27.795 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:46:27.880 [restartedMain] INFO  c.s.b.BackendApplication - [logStarted,61] - Started BackendApplication in 6.867 seconds (JVM running for 7.777)
+17:47:29.025 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:46.560 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:13:37.069 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+18:13:37.178 [lettuce-eventExecutorLoop-1-12] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379
+18:13:41.037 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+18:13:41.040 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+18:13:41.043 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed

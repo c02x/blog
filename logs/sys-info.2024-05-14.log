@@ -1,0 +1,3 @@
+12:29:13.092 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+12:29:13.120 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+12:29:13.123 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed

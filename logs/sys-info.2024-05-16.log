@@ -1,0 +1,39 @@
+10:12:04.313 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+10:12:04.313 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 12800 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+10:12:04.326 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+10:12:13.142 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:12:13.143 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:12:13.144 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:12:13.434 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:12:18.106 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+10:12:19.596 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+10:12:19.611 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
+10:12:19.770 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:13:41.112 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 31392 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+10:13:41.120 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+10:13:41.122 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+10:13:46.172 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:13:46.173 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:13:46.174 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:13:46.393 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:13:50.105 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+10:13:56.290 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:13:56.505 [restartedMain] INFO  c.s.b.BackendApplication - [logStarted,61] - Started BackendApplication in 16.197 seconds (JVM running for 17.978)
+10:14:25.612 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:23:55.126 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+12:11:11.761 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+12:24:03.072 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+12:24:03.074 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+12:24:03.082 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
+12:24:23.739 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+12:24:23.739 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 30488 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+12:24:23.743 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+12:24:28.691 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+12:24:28.691 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:24:28.692 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+12:24:28.835 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:24:31.033 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:24:33.783 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+12:24:33.863 [restartedMain] INFO  c.s.b.BackendApplication - [logStarted,61] - Started BackendApplication in 10.583 seconds (JVM running for 15.609)
+12:25:32.333 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:46:18.962 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]

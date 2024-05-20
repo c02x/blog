@@ -1,0 +1,17 @@
+00:05:00.175 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+00:05:00.190 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+00:05:00.198 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
+12:33:34.942 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 24616 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+12:33:34.948 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+12:33:34.951 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+12:33:42.695 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+12:33:42.696 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:33:42.697 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+12:33:42.862 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:33:46.743 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:33:51.928 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+12:33:52.083 [restartedMain] INFO  c.s.b.BackendApplication - [logStarted,61] - Started BackendApplication in 17.877 seconds (JVM running for 25.731)
+12:35:32.147 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:37:52.388 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:01:59.317 [schedule-pool-2] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:37:27.150 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Logout][退出成功]

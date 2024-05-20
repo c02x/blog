@@ -1,0 +1,2 @@
+21:49:32.828 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:50:14.447 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====

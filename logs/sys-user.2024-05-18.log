@@ -1,0 +1,4 @@
+00:05:00.175 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+12:37:52.388 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:01:59.317 [schedule-pool-2] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:37:27.150 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Logout][退出成功]

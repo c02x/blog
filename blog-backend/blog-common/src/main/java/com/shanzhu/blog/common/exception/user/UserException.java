@@ -1,0 +1,19 @@
+package com.shanzhu.blog.common.exception.user;
+
+import com.shanzhu.blog.common.exception.base.BaseException;
+
+/**
+ * 用户信息异常类
+ *
+ * @author: ShanZhu
+ * @date: 2023-12-09
+ */
+public class UserException extends BaseException
+{
+    private static final long serialVersionUID = 1L;
+
+    public UserException(String code, Object[] args)
+    {
+        super("user", code, args, null);
+    }
+}

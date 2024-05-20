@@ -1,0 +1,33 @@
+17:53:24.587 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+17:53:24.587 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 12132 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+17:53:24.595 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+17:53:29.808 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:53:29.809 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:53:29.809 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:53:29.933 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:53:32.308 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+17:53:35.717 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:53:35.727 [restartedMain] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+17:53:35.734 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+17:53:35.741 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
+17:53:35.867 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-8080"]
+17:53:35.868 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:53:35.877 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-8080"]
+17:53:35.877 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-8080"]
+17:55:01.967 [restartedMain] INFO  c.s.b.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 19.0.2 on xinixin-zhang with PID 28516 (D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码\blog-backend\blog-start\target\classes started by 宸娈 in D:\QQ下载\2681079357\FileRecv\大二下\软件工程\个人博客\010-个人博客系统\010-个人博客系统\010-个人博客系统\源码)
+17:55:01.972 [restartedMain] INFO  c.s.b.BackendApplication - [logStartupProfileInfo,663] - The following profiles are active: druid
+17:55:01.974 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+17:55:04.889 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:55:04.890 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:55:04.890 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:55:05.013 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:55:07.090 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+17:55:10.425 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:55:10.538 [restartedMain] INFO  c.s.b.BackendApplication - [logStarted,61] - Started BackendApplication in 9.154 seconds (JVM running for 10.384)
+17:55:24.134 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:56:38.199 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+17:59:12.529 [schedule-pool-1] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+17:59:20.474 [schedule-pool-2] INFO  sys-user - [run,57] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:01:06.633 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,33] - ====关闭后台任务任务线程池====
+18:01:06.637 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2071] - {dataSource-1} closing ...
+18:01:06.642 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2144] - {dataSource-1} closed
